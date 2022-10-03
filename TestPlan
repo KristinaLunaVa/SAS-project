@@ -1,0 +1,50 @@
+# SAS-project
+
+Introduction
+
+This test plan describes the testing approach of the <BY INCREMENT> function, test strategy, test execution and management.
+The objective of the test is to verify that the works according to the specifications. 
+The final product of the test will deliver: 
+•	a production-ready software
+•	test scripts that can be reused for Functional and UAT testing
+
+Scope
+
+Testing levels:
+1.	Exploratory Testing – the purpose of this test is to make sure critical defects are removed before the next levels of testing can start. This testing is performed without any documentation at the beginning of each cycle
+2.	Functional Testing – the purpose is to check the functions of application. The testing will be performed using test scripts written by QAs based on acceptance criteria
+3.	User Acceptance Testing – the purpose is a final review of the software before deployment. It will be performed by end users and client/stakeholder
+
+Test Execution and Management
+
+1.	Jira X-Ray will be used as Software Test Management Tool for all resources, test cases designing and bug reporting/tracking 
+2.	Once test cases and the test environment are ready, testing execution can start
+3.	 Each Tester is assigned test cases directly in Jira X-Ray
+4.	In case of test failures, defect will be reported along with screenshots if possible
+
+Entry criteria: the activities listed in Test Plan must be completed
+Exit criteria:
+-all test scripts must be executed
+-95% test script pass rate
+-no open critical and severe defects
+-95% of medium severity defects are closed
+Defects
+It is the responsibility of the tester to find and report defects, as well as to decide on severity. Business analyst or the Project owner will decide on priority. 
+Severity will be rated:
+•	Critical
+•	High
+•	Medium
+•	Low
+
+Risks
+1.	Schedule - high impact – if System testing is behind the schedule, it must be finished before the UAT scheduled start date
+2.	Defects - high impact - ensure proper software specification is provided to avoid defects in late stage of software development
+3.	Resources - high impact - not enough resources can slow down testing process
+4.	Natural catastrophe - medium impact 
+Roles and Responsibilities
+1.	Project Manager - reviews the test plan and strategy
+2.	Test Lead – creates test plan, provides guidelines, and communicates changes to the test team
+3.	QAs – create test cases and test scripts, identifies defects and prepares test metrics
+4.	Developers – support the testing process and review results
+Test Environment
+Tests will be performed in Windows environment with Google Chrome and Firefox.
