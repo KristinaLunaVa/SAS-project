@@ -1,15 +1,18 @@
-Scenario: User enters invalid number
+
 
 DO index = start TO stop <BY increment>
 <statements>
 END;
 
 do{
+user enters increment
 code to be executed
 }while(true);
 
 
 
+
+Scenario: User enters invalid number
 Scenario: User enters 0
 Scenario: User does not provide input
 Scenario: User enters a valid number
